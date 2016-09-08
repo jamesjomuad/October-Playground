@@ -1,0 +1,5 @@
+<div class="btn-group btn-group-xs">
+  <a class="btn btn-default" href="<?= 'https://'.$value['subdomain'].'.email-invoice.com/payment/'.$value['hash'] ?>" target="_blank"><i class="icon-credit-card"></i></a>
+  <a class="btn btn-default" href="<?= cmsonline\invoice\Plugin::get()->pdfUrl.$value['hash'].'.pdf' ?>" target="_blank"><i class="icon-file-pdf-o"></i></a>
+  <a class="btn btn-default" href="invoices/preview/<?= $value['id'] ?>"><i class="icon-search "></i></a>
+</div>

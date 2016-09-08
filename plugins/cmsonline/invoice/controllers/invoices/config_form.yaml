@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Invoice
+
+# Model Form Field configuration
+form: $/cmsonline/invoice/models/invoice/fields.yaml
+
+# Model Class name
+modelClass: Cmsonline\Invoice\Models\Invoice
+
+# Default redirect location
+defaultRedirect: cmsonline/invoice/invoices
+
+# Create page
+create:
+    title: Create Invoice
+    redirect: cmsonline/invoice/invoices/update/:id
+    redirectClose: cmsonline/invoice/invoices
+
+# Update page
+update:
+    title: Edit Invoice
+    redirect: cmsonline/invoice/invoices
+    redirectClose: cmsonline/invoice/invoices
+
+# Preview page
+preview:
+    title: Preview Invoice

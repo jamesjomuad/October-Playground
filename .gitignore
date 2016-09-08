@@ -1,0 +1,8 @@
+# Blacklist files/folders
+/*
+
+# Whitelist some files
+!.gitignore
+!README.md
+!plugins
+!themes

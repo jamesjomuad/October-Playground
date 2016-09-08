@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Home
+
+# Model Form Field configuration
+form: $/cmsonline/customers/models/home/fields.yaml
+
+# Model Class name
+modelClass: Cmsonline\Customers\Models\Customer
+
+# Default redirect location
+defaultRedirect: cmsonline/customers/home
+
+# Create page
+create:
+    title: Create Home
+    redirect: cmsonline/customers/home/update/:id
+    redirectClose: cmsonline/customers/home
+
+# Update page
+update:
+    title: Edit Home
+    redirect: cmsonline/customers/home
+    redirectClose: cmsonline/customers/home
+
+# Preview page
+preview:
+    title: Preview Home
