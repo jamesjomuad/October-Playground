@@ -1,9 +1,6 @@
 # Blacklist files/folders
-/*
-
-# Whitelist some files
-!.gitignore
-!README.md
-!plugins
-!themes
-!composer.json
+/bootstrap
+/config
+/modules
+/tests
+/vendor
