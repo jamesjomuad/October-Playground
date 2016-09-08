@@ -1,5 +1,4 @@
 # Blacklist files/folders
-/bootstrap
 /config
 /modules
 /tests
